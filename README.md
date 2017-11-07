@@ -54,4 +54,5 @@ Vulnerability #2: Insecure Direct Object Reference (IDOR)
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Finding the SQLi was the trickiest part.
+Close second was the XSS, mostly since my original test code never displayed and made it seem that the vulnerability wasn't on that site.

@@ -18,7 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: Session Hijacking
   - GIF Walkthrough:
-    ![Dunno why this didn't load](/images/blue-vuln-session-hijacking 'instructions')
+    ![Dunno why this didn't load](/images/blue-vuln-session-hijacking.gif 'instructions')
   - Explanation: Using the included tool to change the session ID, the blue site does not check if the session belongs to the browser used. Therefore, replacing the session ID for the blue site with a logged in green site resulted in access to the admin controls without logging in.
 
 Vulnerability #2: SQL Injection (SQLi)
